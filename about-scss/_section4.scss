@@ -1,0 +1,87 @@
+.sc4-box{
+    background-color: var(--main-ligth-color);
+}
+.sc4{
+    padding-top: 130px;
+}
+.sc4-team{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #7B7B7B;
+}
+.sc4-title{
+    margin: 14px auto;
+    max-width: 450px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    text-align: center;
+    color: var(--main-dark-color);
+}
+.sc4-title span{
+    color: #FF5300;
+}
+
+.sc4-cards{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.sc4-card{
+    position: relative;
+    width: 270px;
+    height: auto;
+    cursor: pointer;
+    flex-shrink: 0;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--main-white);
+}
+.sc4-card-title{
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--main-dark-color);
+}
+.sc4-card-hover{
+    position: absolute;
+    top: 20px;
+    left: 225px;
+    display: block;
+    transition: all 1s ease;
+    transform: scale(0);
+}
+.sc4-card:hover .sc4-card-hover{
+    cursor: pointer;
+    transform: scale(1);
+}
+.sc4-card-hover img{
+    width: 45px;
+    display: block;
+}
+.sc4-card-info{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #7B7B7B;
+}
+
+@media (max-width:650px) {
+    .sc4{
+        padding-top: 70px;
+    }
+}
+
+@media (max-width:400px) {
+    .sc4{
+        padding-top: 40px;
+    }
+}

@@ -1,0 +1,118 @@
+.sc4-box{
+    margin-top: 100px;
+    background-color: #FFF7F4;
+}
+.sc4{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.sc4 h6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+}
+.sc4 h6 img{
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.sc4 h2{
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #373737;
+    text-align: center;
+}
+
+.sc4 .box{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sc4 .box .card{
+    padding: 25px;
+    width: 370px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.flex-yulduz{
+    display: flex;
+    align-items: center;
+}
+.flex-yulduz img{
+    margin-right: 10px;
+}
+.sc4 p{
+    max-width: 320px;
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+.ft-card{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ft-card .text-content{
+    display: flex;
+    align-items: center;
+}
+.ft-card .text-content .text{
+    margin-left: 10px;
+}
+.sc4 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF5300;
+}
+.sc4 h5{
+    font-weight: 300;
+    font-size: 12.8px;
+    line-height: 19px;
+    color: #7B7B7B;
+}
+
+@media (max-width:1175px) {
+    .sc4 .box{
+        justify-content: space-between;
+    }
+}
+@media (max-width:1150px) {
+    .sc4 .box{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .sc4 .box .card{
+        margin: 10px;
+    }
+}
+@media (max-width:400px) {
+    .sc4-box{
+        margin-top: 40px;
+    }
+    .sc4{
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .sc4 .box .card{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:380px) {
+    .sc4 .box img{
+        width: 10%;
+    }
+}

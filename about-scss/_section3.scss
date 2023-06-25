@@ -1,0 +1,123 @@
+.sc3-box{
+    background-color: var(--main-light);
+}
+.sc3{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc3-our{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #7B7B7B;
+}
+
+.sc3-title{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    max-width: 487px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: var(--main-dark-color);
+}
+.sc3-title span{
+    color: #FF5300;
+}
+.sc3-info{
+    margin: 20px 0;
+    max-width: 570px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    opacity: 0.8;
+    color: var(--main-dark-color);
+}
+.sc3-btn{
+    margin-top: 10px;
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: #FFFFFF;
+    background: #FF5300;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+}
+
+.sc3-cards{
+    display: flex;
+    align-items: center;
+}
+
+.sc3-card{
+    padding: 80px 0;
+    margin: 10px;
+    width: 270px;
+    height: 250px;
+    text-align: center;
+    background: var(--main-ligth-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.sc3-card__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: var(--main-dark);
+}
+.sc3-card__info{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--main-dark-color);
+}
+
+@media (max-width:1020px) {
+    .sc3-card{
+        width: 162px;
+        height: auto;
+        padding: 40px 0;
+    }
+    .sc3-card__title{
+        font-size: 25px;
+    }
+    .sc3-card__info{
+        font-size: 16px;
+    }
+}
+@media (max-width:680px) {
+    .sc3{
+        flex-wrap: wrap;
+    }
+    .sc3-cards{
+        margin-top: 30px;
+    }
+}
+@media (max-width:400px) {
+    .sc3-title{
+        font-size: 33px;
+    }
+    .sc3-cards{
+        display: block;
+        margin-top: 40px;
+    }
+    .sc3-card{
+        width: 300px;
+    }
+    .sc3-card__title{
+        font-size: 32px;
+    }
+    .sc3-card__info{
+        font-size: 22px;
+    }
+}
+@media (max-width:340px) {
+    .sc3-card{
+        width: 250px;
+    }
+}

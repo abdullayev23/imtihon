@@ -1,0 +1,32 @@
+.boxes-1{
+    margin: 35px 0;
+}
+
+.coment-data1{
+    margin: 12px 0;
+}
+
+.btn-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-flex button{
+    color: black;
+    padding: 12px 15px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+    background: #fff;
+    border: 1px solid black;
+}
+
+@media (max-width:780px) {
+    .sc3-img{
+        width: 100%;
+    }
+    .coment-data1{
+        width: 80%;
+    }
+}

@@ -1,0 +1,129 @@
+.sc2-box{
+    margin-top: 80px;
+}
+
+.sc2{
+    display: flex;
+    justify-content: start;
+    // flex-wrap: wrap;
+}
+
+.sc2-img{
+    width: 100%;
+}
+
+.sc2-boxes-title{
+    max-width: 680px;
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 123.6%;
+    color: var(--text-black);
+}
+.coment-data{
+    width: 80%;
+    margin: 16px 0;
+}
+
+.sc2-boxes-info {
+    margin: 15px 0;
+    max-width: 745px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--text-7b);
+}
+.sc2-btn{
+    padding: 13px 23px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: #FFFFFF;
+    background: #FF5300;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-sc2 {
+    width: 372px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--main-light);
+}
+
+.cards{
+    margin-left: 40px;
+    // margin-right: 40px;
+}
+
+.card{
+    margin-top: 50px;
+    background: var(--main-light);
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1)
+}
+
+.sc2-card-title{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: var(--text-black);
+}
+
+.input-sc2 input{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.fle-img{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.fle-img h4{
+    margin-left: 10px;
+    max-width: 250px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--text-black);
+}
+
+@media (max-width:780px) {
+    .cards{
+        width: 120%;
+    }
+    .input-sc2{
+        width: 100%;
+    }
+}
+
+@media (max-width:690px) {
+    .sc2{
+        flex-wrap: wrap;
+    }
+    .input-sc2{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
+@media (max-width:500px) {
+    .sc2-box{
+        margin-top: 50px;
+    }
+}
+@media (max-width:360px) {
+    .fle-img{
+        margin-left: 0;
+    }
+    .card{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

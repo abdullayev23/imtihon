@@ -1,0 +1,27 @@
+.sc9-box{
+    background-color: var(--main-ligth-color);
+}
+
+.sc9{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.sc9-flex{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc9-flex img{
+    width: 20%;
+}
+
+@media (max-width:470px) {
+    .sc9{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}

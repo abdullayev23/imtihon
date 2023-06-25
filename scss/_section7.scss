@@ -1,0 +1,104 @@
+.sc7-box{
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.sc7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 20px;
+    background: #FF5300;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.sc7-desc {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.sc7-desc div{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+.sc7-title{
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.input-sc7{
+    margin-left: 10px;
+    width: 642px;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.sc7-btn{
+    padding: 15px 33px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #FF5300;
+    border-radius: 5px;
+    border: none;
+}
+.sc7 input{
+    width: 50%;
+    font-size: 16px;
+    color: #7B7B7B;
+    outline: none;
+    border: none;
+}
+.sc7 input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7B7B;
+}
+
+@media (max-width:680px) {
+    .sc7-box{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .sc7{
+        display: block;
+    }
+    .input-sc7{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+@media (max-width:490px) {
+    .sc7-box{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .sc7{
+        height: auto;
+    }
+    .input-sc7{
+        padding: 0 5px;
+    }
+    .input-sc7 input{
+        width: 40%;
+    }
+    .sc7-btn{
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+}

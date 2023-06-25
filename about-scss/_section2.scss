@@ -1,0 +1,117 @@
+.sc2-box{
+    background-color: var(--main-ligth-color);
+}
+
+.sc2{
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+.sc2-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sc2-about{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    opacity: 0.8;
+    color: var(--main-dark-color);
+}
+.sc2-title{
+    margin: 10px 0;
+    max-width: 495px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    color: var(--main-dark-color);
+}
+.sc2-title span{
+    color: #FF5300;
+}
+.sc2-info{
+    margin: 20px 0;
+    max-width: 569px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    opacity: 0.8;
+    color: var(--main-dark-color);
+}
+.sc2-btn{
+    padding: 13px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: #FFFFFF;
+    background: #FF5300;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: none;
+}
+
+.sc2-cards{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sc2-card{
+    padding-top: 10px;
+    width: 270px;
+    height: 200px;
+    background: var(--main-ligth-color);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.sc2-card-info{
+    max-width: 205px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    text-align: center;
+    color: var(--main-dark-color);
+}
+
+@media (max-width:1130px) {
+    .sc2-img{
+        width: 45%;
+    }
+    .sc2-card{
+        width: 23%;
+    }
+}
+
+@media (max-width:700px) {
+    .sc2-box{
+        flex-wrap: wrap;
+    }
+    .sc2-img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:600px) {
+    .sc2{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sc2-cards{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .sc2-card{
+        width: 30%;
+        margin: 10px;
+    }
+}
+@media (max-width:450px) {
+    .sc2-cards{
+        margin-top: 30px;
+    }
+    .sc2-card{
+        width: 100%;
+    }
+}

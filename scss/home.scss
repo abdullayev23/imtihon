@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 300;
+    src: 
+       url('../fonts/poppins-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: 
+       url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 500;
+    src: 
+       url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 600;
+    src:
+       url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 700;
+    src:
+       url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: 0.7s all ease;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+img{
+    display: block;
+    height: 100%;
+}
+
+@import "header" ;
+@import "head-hero" ;
+@import "hero" ;
+@import "section2" ;
+@import "section3" ;
+@import "section4" ;
+@import "section5" ;
+@import "section6" ;
+@import "section7" ;
+@import "footer" ;

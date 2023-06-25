@@ -1,0 +1,51 @@
+.sc4-box{
+    margin-top: 70px;
+}
+
+.karta{
+    margin-left: 30px;
+    width: 770px;
+    height: auto;
+    background: var(--main-ligth);
+    padding: 10px;
+}
+
+.karta .tex{
+    margin-left: 10px;
+}
+
+.fl-img{
+    display: flex;
+}
+
+.karta h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--text-black);
+}
+.karta h5{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 150.6%;
+    color: #FF5300;
+}
+.karta p{
+    max-width: 605px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: var(--text-7b);
+}
+
+@media (max-width:810px) {
+    .karta{
+        width: auto;
+    }
+}
+@media (max-width:400px) {
+    .karta img{
+        display: none;
+    }
+}

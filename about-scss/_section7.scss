@@ -1,0 +1,132 @@
+.sc7-box{
+    background-color: var(--main-ligth-color);
+}
+
+.sc7{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.sc7-blog {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    text-align: center;
+    color: #7B7B7B;
+}
+
+.sc7-title{
+    margin: 15px auto;
+    max-width: 540px;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    text-align: center;
+    color: var(--main-dark-color);
+}
+
+.sc7-title span{
+    color: #FF5300;
+}
+
+.sc7-cards{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow-x: auto;
+}
+.sc7-card{
+    padding-left: 20px;
+    padding-right: 10px;
+    flex-shrink: 0;
+    margin: 10px;
+    width: 570px;
+    height: 294px;
+    background: var(--main-white);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sc7-img{
+    width: 130px;
+}
+
+.sc7-card-des{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #FF5300;
+}
+
+.flex-1{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-sc7{
+    display: flex;
+    align-items: center;
+}
+
+.tes{
+    margin-left: 10px;
+}
+
+.sc7-card-title{
+    max-width: 310px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: var(--main-dark-color);
+}
+.sc7-user{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: var(--main-dark-color);
+}
+.sc7-clock{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #7B7B7B;
+}
+
+@media (max-width:1190px) {
+    .sc7-cards{
+        justify-content: start;
+    }
+}
+@media (max-width:665px) {
+    .sc7{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .sc7-card{
+        width: 90%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width:480px) {
+    .sc7-card{
+        width: 100%;
+    }
+    .sc7-img{
+        width: 60px;
+    }
+    .text-sc7{
+        margin-top: 10px;
+    }
+    .sc7-icon{
+        width: 60px;
+    }
+}
+@media (max-width:480px) {
+    .sc7-img{
+        display: none;
+    }
+}

@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 300;
+    src:
+         url('../fonts/work-sans-v18-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/work-sans-v18-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/work-sans-v18-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    }
+
+    @font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src:
+         url('../fonts/work-sans-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/work-sans-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/work-sans-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    }
+
+    @font-face {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    src:
+         url('../fonts/work-sans-v18-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/work-sans-v18-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/work-sans-v18-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    }
+
+    @font-face {
+    font-family: 'Work Sans';
+    font-weight: 600;
+    src:
+         url('../fonts/work-sans-v18-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/work-sans-v18-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/work-sans-v18-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+    }
+
+    @font-face {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    src:
+         url('../fonts/work-sans-v18-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/work-sans-v18-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/work-sans-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    }
+
+
+
+:root{
+    --main-ligth: #FFF7F4;
+    --main-dark: #242526;
+    --body-light: #FFFFFF;
+    --body-dark: #18191A;
+    --text-black: #373737;
+    --text-white: #ffff;
+    --text-7b: #7b7b7b;
+    --text-f: #fff;
+    --header-white: #fff;
+    --header-dark: #3c3c3c;
+}
+
+.active-dark {
+    --main-ligth: #242526;
+    --main-dark: #FFF7F4;
+    --body-light: #18191A;
+    --body-dark: #FFFF;
+    --text-black: #FFFF;
+    --text-white: #373737;
+    --text-7b: #FFF;
+    --text-f: #7B7B7B;
+    --header-white: #3c3c3c;
+    --header-dark: #ffff;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+body{
+    background-color: var(--body-light);
+    font-family: 'Work Sans' , sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+button{
+    cursor: pointer;
+}
+
+@import "header" ;
+@import "hero" ;
+@import "section2" ;
+@import "section3" ;
+@import "footer" ;
